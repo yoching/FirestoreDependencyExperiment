@@ -1,0 +1,6 @@
+framework module Pods_FirestoreDependencyExperiment {
+  umbrella header "Pods-FirestoreDependencyExperiment-umbrella.h"
+
+  export *
+  module * { export * }
+}
