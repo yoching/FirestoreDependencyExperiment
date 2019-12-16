@@ -15,7 +15,6 @@
 		CB584B1323A7C1E60047C6A0 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB584B1223A7C1E60047C6A0 /* FirestoreManager.swift */; };
 		CB584B1723A7DF0A0047C6A0 /* FirestoreCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB584B1623A7DF0A0047C6A0 /* FirestoreCollectionManager.swift */; };
 		CB70563623A3E69200CCA22D /* FirestoreDependencyExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70562C23A3E69200CCA22D /* FirestoreDependencyExperiment.framework */; };
-		CB70563B23A3E69200CCA22D /* FirestoreDependencyExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70563A23A3E69200CCA22D /* FirestoreDependencyExperimentTests.swift */; };
 		CB70563D23A3E69200CCA22D /* FirestoreDependencyExperiment.h in Headers */ = {isa = PBXBuildFile; fileRef = CB70562F23A3E69200CCA22D /* FirestoreDependencyExperiment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		CB70562F23A3E69200CCA22D /* FirestoreDependencyExperiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirestoreDependencyExperiment.h; sourceTree = "<group>"; };
 		CB70563023A3E69200CCA22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB70563523A3E69200CCA22D /* FirestoreDependencyExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirestoreDependencyExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB70563A23A3E69200CCA22D /* FirestoreDependencyExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDependencyExperimentTests.swift; sourceTree = "<group>"; };
 		CB70563C23A3E69200CCA22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0CECDB05C1A610716F4B7F6 /* Pods-FirestoreDependencyExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreDependencyExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-FirestoreDependencyExperimentTests/Pods-FirestoreDependencyExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +124,6 @@
 			children = (
 				CB584B0E23A7BFC20047C6A0 /* GoogleService-Info.plist */,
 				CB584B1023A7C0000047C6A0 /* FirebaseTest.swift */,
-				CB70563A23A3E69200CCA22D /* FirestoreDependencyExperimentTests.swift */,
 				CB70563C23A3E69200CCA22D /* Info.plist */,
 				CB584B0823A7BB7C0047C6A0 /* SampleSpec.swift */,
 			);
@@ -321,7 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB584B0923A7BB7C0047C6A0 /* SampleSpec.swift in Sources */,
-				CB70563B23A3E69200CCA22D /* FirestoreDependencyExperimentTests.swift in Sources */,
 				CB584B1123A7C0000047C6A0 /* FirebaseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
